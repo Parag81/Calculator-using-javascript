@@ -1,24 +1,16 @@
 body {
   background-color: rgb(24, 22, 22);
 }
-.main-div {
-  display: grid;
-  width: 390px;
-  min-height: 530px;
-  background-color: rgb(44, 44, 44);
+
+.output {
   margin: auto;
   margin-top: 70px;
-  grid-template-rows: minmax(110px, auto);
-}
-.output {
   min-height: 110px;
-  display: flex;
+  width: 380px;
   align-items: flex-end;
   border-bottom: 1px solid black;
   color: white;
   text-align: end;
-  justify-content: space-around;
-  flex-direction: column;
   background-color: black;
   word-wrap: break-word;
   word-break: break-all;
