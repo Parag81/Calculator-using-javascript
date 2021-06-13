@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(24, 22, 22);
+}
+.main-div {
+  display: grid;
+  width: 390px;
+  min-height: 530px;
+  background-color: rgb(44, 44, 44);
+  margin: auto;
+  margin-top: 70px;
+  grid-template-rows: minmax(110px, auto);
+}
+.output {
+  min-height: 110px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 1px solid black;
+  color: white;
+  text-align: end;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: black;
+  word-wrap: break-word;
+  word-break: break-all;
+  padding: 10px;
+}
+.output .previous {
+  color: rgb(219, 212, 202);
+  font-size: 1.5rem;
+}
+.output .current {
+  color: white;
+  font-size: 2.5rem;
+}
+.buttons {
+  padding: 5px;
+}
+button {
+  height: 4.7rem;
+  width: 5.75rem;
+  background-color: rgb(26, 24, 24);
+  color: white;
+  border: 0px;
+  margin-bottom: 5px;
+  font-size: 1.7rem;
+}
+button:hover {
+  background-color: rgb(44, 44, 44);
+  border: 1px solid cyan;
+}
+.size {
+  width: 8.75rem;
+}
+.size1 {
+  width: 11.7rem;
+  background-color: cadetblue;
+}
+.size1:hover {
+  background-color: #72e2e6d3;
+}
