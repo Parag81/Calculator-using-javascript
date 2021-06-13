@@ -1,59 +1,52 @@
-<html lang="en">
-  <head>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
-      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
-      crossorigin="anonymous"
-    ></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-    <title>Calculator</title>
-  </head>
+<!DOCTYPE html>
+<html>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <script src="script.js" defer></script>
   <body>
-    <div class="container gap-3 align-self-center">
-      <div class="col" align="center">
-        <div class="p-3 output">
-          <div data-previous class="previous"></div>
-          <div data-current class="current"></div>
+  
+    <div class="w3-panel w3-container">
+
+      <div class="w3-col m4 w3-dark-grey ">
+        <div class="w3-row">
+          <div class="col">
+            <div class="output">
+              <div data-previous class="previous"></div>
+              <div data-current class="current"></div>
+            </div>
+          </div>
         </div>
-        <div>
-          <button data-delete class="size">DEL</button>
-          <button data-clear class="size">C</button>
-          <button data-operation>/</button><br />
-          <button data-numbers>1</button>
-          <button data-numbers>2</button>
-          <button data-numbers>3</button>
-          <button data-operation>*</button><br />
-          <button data-numbers>4</button>
-          <button data-numbers>5</button>
-          <button data-numbers>6</button>
-          <button data-operation>-</button><br />
-          <button data-numbers>7</button>
-          <button data-numbers>8</button>
-          <button data-numbers>9</button>
-          <button data-operation>+</button><br />
-          <button data-numbers>.</button>
-          <button data-numbers>0</button>
-          <button data-equals class="size1">=</button>
+        <div class="w3-row ">
+          <button data-delete class="w3-col m5 s5 button">DEL</button>
+          <button data-clear class="w3-col m4 s4">C</button>
+          <button data-operation class="w3-col m3 s3">/</button>  
         </div>
+        <div class="w3-row">
+          <button data-numbers class="w3-col m3 s3 button">1</button>
+            <button data-numbers class="w3-col m3 s3 button">2</button>
+            <button data-numbers class="w3-col m3 s3 button">3</button>
+            <button data-operation class="w3-col m3 s3 button">*</button> 
+        </div>
+        <div class="w3-row">
+          <button data-numbers class="w3-col m3 s3 button">4</button>
+            <button data-numbers class="w3-col m3 s3 button">5</button>
+            <button data-numbers class="w3-col m3 s3 button">6</button>
+            <button data-operation class="w3-col m3 s3 button">-</button> 
+        </div>
+        <div class="w3-row">
+          <button data-numbers class="w3-col m3 s3 button">7</button>
+            <button data-numbers class="w3-col m3 s3 button">8</button>
+            <button data-numbers class="w3-col m3 s3 button">9</button>
+            <button data-operation class="w3-col m3 s3 button">+</button> 
+        </div>
+        <div class="w3-row">
+          <button data-numbers class="w3-col m3 s3 button">.</button>
+            <button data-numbers class="w3-col m3 s3 button">0</button>
+            <button data-equals class="w3-col m6 s6 button">=</button> 
+        </div>
+                </div>  
       </div>
     </div>
   </body>
